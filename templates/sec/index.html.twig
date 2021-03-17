@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bienvenido a LearnSEC! {% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="col">
+                <img src="/images/Diccionario.png" class="img-fluid" alt="imagen_DICCIONARIO">
+            </div>
+            <div class="col">
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <a class="btn btn-primary" href="/gramatica" role="button">Gramática LSEC</a>
+                    <a class="btn btn-primary" href="/abecedario" role="button">Abecedario LSEC</a>
+                    <a class="btn btn-primary" href="/frases" role="button">Frases Conversacionales</a>
+                    <a class="btn btn-primary" href="/vocabulario" role="button">Vocabulario LSEC</a>
+                    <a class="btn btn-primary" href="/diccionario" role="button">Diccionario LSEC</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Diccionario LSEC{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Diccionario LSEC</li>
+        </ol>
+    </nav>
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="col">
+                <p style="text-align: justify">
+                    El diccionario de lengua de señas ecuatoriano “Gabriel Román” en formato web cuenta con alrededor de 5.000 palabras del Diccionario Oficial de la Lengua de Señas Ecuatoriana, incluye gráficos y videos explicativos, a través de los cuales se observa la forma adecuada de articular una seña.
+                </p>
+                <p style="text-align: justify">
+                    Existen 9 grupos de configuraciones de señas con 82 variantes, cada una representa una postura de la mano, y son herramientas que apoyan la comunicación.
+
+                </p>
+                <p style="text-align: justify">
+                    El conocimiento de la lengua de señas promueve el acceso, comunicación e información, motivando el interés del público a nivel nacional e internacional acerca de la comunidad sorda del Ecuador. Para ver el diccionario completo da click en el botón.
+                </p>
+                <a class="btn btn-primary" href="http://www.plataformaconadis.gob.ec/~platafor/diccionario/" target="_blank" role="button">Diccionario LSEC Gabriel Román</a>
+            </div>
+            <div class="col">
+                <img src="/images/Diccionario.png" class="img-fluid" alt="imagen_DICCIONARIO">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Acerca del Proyecto{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+<div class="example-wrapper">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Acerca del Proyecto</li>
+            </ol>
+        </nav>
+        <div class="container">
+            <div class="row row-cols-2">
+                <center>
+                    <div class="col">
+                        <img src="/images/About.png" class="img-fluid" alt="imagen_DICCIONARIO">
+                    </div>
+                </center>
+
+                <div class="col">
+                    <p style="text-align: justify">
+                        El desarrollo propuesto en este proyecto busca ofrecer una alternativa para la enseñanza de la lengua de señas ecuatoriana (LSEC). Por medio de recursos digitales bajo plataforma web, se mostrará las distintas señas que componen el vocabulario básico que se necesita para empezar a familiarizarse con la lengua de señas ecuatoriana. Para ello es necesario que la aplicación cuente con una funcionalidad sencilla y con un diseño de interfaz gráfica que sea atractivo al público en general.
+                    </p>
+                    <p style="text-align: justify">
+                        Una de las principales características de la aplicación es su compatibilidad, ya que ofrecerá la posibilidad de su uso en dispositivos móviles como tabletas, smartphones o cualquier dispositivo que cuente con acceso a un navegador y conexión a Internet, ofreciendo una alta disponibilidad, reduciendo los costos de implementación y ofreciendo nuevos espacios de enseñanza.
+                    </p>
+                    <p style="text-align: justify">
+                        Finalmente, el proyecto tiene una gran relevancia social al dar la posibilidad de socializar la lengua de señas y de esta manera aportar a las necesidades de una población que requiere constantemente de apoyo, permitiendo aumentar su grado de participación e inclusión social
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
