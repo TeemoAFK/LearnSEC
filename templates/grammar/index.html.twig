@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello GrammarController!{% endblock %}
+{% block title %}Gramática de LSEC{% endblock %}
 
 {% block body %}
 <style>
@@ -9,12 +9,25 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Gramática</li>
+        </ol>
+    </nav>
+    <h1>¿Cómo se forma una oración en lengua de señas ecuatoriana?</h1>
+    <center>
+        <div>
+            <img src="/images/gramatica.png" class="img-fluid" alt="imagen_gramatica" >
+        </div>
+        <br>
+        <div>
+            <p style="text-align: justify">
+                La estructura de las oraciones, es similar a la estructura de las oraciones en Ingles.
+                En la estructura que se presenta la letra S, representa el sujeto o el objeto. La letra V, representa el verbo, la acción que el sujeto o el objeto realiza. Y la letra C representa el complemento, es decir las formas de tiempos y demás cosas.
+            </p>
+        </div>
+    </center>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/USER/Documents/LearnSEC/learnsec/src/Controller/GrammarController.php'|file_link(0) }}">src/Controller/GrammarController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/USER/Documents/LearnSEC/learnsec/templates/grammar/index.html.twig'|file_link(0) }}">templates/grammar/index.html.twig</a></code></li>
-    </ul>
 </div>
 {% endblock %}
