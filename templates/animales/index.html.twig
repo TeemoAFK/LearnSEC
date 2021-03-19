@@ -1,20 +1,105 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello AnimalesController!{% endblock %}
+{% block title %}Animales{% endblock %}
 
 {% block body %}
 <style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper { margin: 1em auto; max-width: 1200px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="/vocabulario">Vocabulario</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Animales</li>
+        </ol>
+    </nav>
+    <h1>Animales en LSEC</h1>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/USER/Documents/LearnSEC/learnsec/src/Controller/AnimalesController.php'|file_link(0) }}">src/Controller/AnimalesController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/USER/Documents/LearnSEC/learnsec/templates/animales/index.html.twig'|file_link(0) }}">templates/animales/index.html.twig</a></code></li>
-    </ul>
-</div>
+    <div class="container" style align="center">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem; border-color: #FFFFFF;">
+                        <img src="/images/Vocabulario.png" class="img-fluid" class="card-img-top" alt="img_saludos">
+                        <div class="card-body">
+                            <h5>Buenos Dias</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;border-color: #FFFFFF;">
+                        <img src="/images/Vocabulario.png" class="card-img-top" class="img-fluid" alt="img_saludos">
+                        <div class="card-body">
+                            <h5>Buenos Dias</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;border-color: #FFFFFF;">
+                        <img src="/images/Vocabulario.png" class="card-img-top" class="img-fluid" alt="img_saludos">
+                        <div class="card-body">
+                            <h5>Buenos Dias</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container" style align="center">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem; border-color: #FFFFFF;">
+                    <img src="/images/Vocabulario.png" class="img-fluid" class="card-img-top" alt="img_saludos">
+                    <div class="card-body">
+                        <h5>Hola</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;border-color: #FFFFFF;">
+                    <img src="/images/Vocabulario.png" class="card-img-top" class="img-fluid" alt="img_saludos">
+                    <div class="card-body">
+                        <h5>Mi nombre es...</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;border-color: #FFFFFF;">
+                    <img src="/images/Vocabulario.png" class="card-img-top" class="img-fluid" alt="img_saludos">
+                    <div class="card-body">
+                        <h5>Adiós, cuídate mucho</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style align="center">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem; border-color: #FFFFFF;">
+                    <img src="/images/Vocabulario.png" class="img-fluid" class="card-img-top" alt="img_saludos">
+                    <div class="card-body">
+                        <h5>Bienvenidos a ... </h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;border-color: #FFFFFF;">
+                    <img src="/images/Vocabulario.png" class="card-img-top" class="img-fluid" alt="img_saludos">
+                    <div class="card-body">
+                        <h5>Saludos Cordiales</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
