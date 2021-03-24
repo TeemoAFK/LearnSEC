@@ -6,6 +6,11 @@ El desarrollo del proyecto fue hecho con las siguientes herramientas:
 1. Symfony CLI 4.23.2
 2. Composer 2.0.11 
 3. PHP Version 8.0.3
+4. Visual Studio Code (Editor de texto)
+
+##  Manejo de Gráficos.
+Los iconos y gráficos, así como el desarrollo de los mocukps fueron realizados con Figma, misma que es una alternativa al uso de Adobe Illustrator. 
+Para el desarrollo de los GIF para el vocabulario, se uilizó la herramienta Canva. 
 
 ##  Despliegue de la aplicación WEB
 Para el despliegue de la aplicación WEB, se utilizó Heroku. 
