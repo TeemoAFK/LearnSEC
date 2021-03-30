@@ -13,6 +13,7 @@
         {% block javascripts %}
             {#{{ encore_entry_script_tags('app') }}#}
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    
         {% endblock %}
     </head>
     <body>
@@ -40,7 +41,38 @@
                     <li class="nav-item">
                         <a class="nav-link" style="font-size:larger" href="/acerca">Acerca del Proyecto</a>
                     </li>
-                </ul>
+                     
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="font-size:larger" href="/vocabulario" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Vocabulario
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/colores">Colores</a></li>
+            <li><a class="dropdown-item" href="/ecuador">Ecuador</a></li>
+            <li><a class="dropdown-item" href="/transportes">Transportes</a></li>
+            <li><a class="dropdown-item" href="/alimentos">Alimentos</a></li>
+            <li><a class="dropdown-item" href="/animales">Animales</a></li>
+            <li><a class="dropdown-item" href="/familia">Familia</a></li>
+          </ul>
+        </li>
+      </li>
+
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="font-size:larger" href="/vocabulario" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Frases
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/saludos">Saludos</a></li>
+            <li><a class="dropdown-item" href="/comida">Comida</a></li>
+            <li><a class="dropdown-item" href="/pagar">Transacciones Monetarias</a></li>
+            <li><a class="dropdown-item" href="/preguntas">Preguntas</a></li>
+            <li><a class="dropdown-item" href="/direcciones">Direcciones</a></li>
+            <li><a class="dropdown-item" href="/modales">Modales y Cortesia</a></li>
+            <li><a class="dropdown-item" href="/medicina">Medicina</a></li>
+          </ul>
+        </li>
+      </li>
+
             </div>
         </div>
     </nav>
